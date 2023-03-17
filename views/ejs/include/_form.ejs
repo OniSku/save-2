@@ -1,0 +1,32 @@
+<form action="POST" id="update-user">
+    <div class="form-group">
+        <label for="name" class="text-light">Name</label>
+        <input type="hidden" name="id" value="">
+        <input type="text" name="name" value="" placeholder="Jhon">
+    </div>
+    <div class="form-group">
+        <label for="Email" class="text-light">Email</label>
+        <input type="text" name="name" value="" placeholder="email@gmail.com"> 
+    </div>
+    <div class="form-group">
+        <label for="gender" class="text-light">Пол</label>
+        <div class="radio">
+            <input type="radio" name="gender" value="Мужчина">
+            <label for="gender" class="text-light">Мужчина</label>
+        </div>
+    </div>
+    <div class="radio">
+        <input type="radio" name="gender" value="Женщина">
+        <label for="gender" class="text-light">Женщина</label>
+    </div>
+    <div class="form-group">
+        <label for="status" class="text-light">Статус</label>
+        <div class="radio">
+            <input type="radio" name="status" value="Неактивный">
+            <label for="gender" class="text-light">Неактивный</label>
+        </div>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn text-dark">Добавить</button>
+    </div>
+</form>
