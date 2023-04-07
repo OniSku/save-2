@@ -1,4 +1,4 @@
-<form action="POST" id="update-user">
+<form action="/api/users" method="POST" id="add-user">
     <div class="form-group">
         <label for="name" class="text-light">Name</label>
         <input type="hidden" name="id" value="">
@@ -6,7 +6,7 @@
     </div>
     <div class="form-group">
         <label for="Email" class="text-light">Email</label>
-        <input type="text" name="name" value="" placeholder="email@gmail.com"> 
+        <input type="text" name="email" value="" placeholder="email@gmail.com"> 
     </div>
     <div class="form-group">
         <label for="gender" class="text-light">Пол</label>
@@ -24,6 +24,8 @@
         <div class="radio">
             <input type="radio" name="status" value="Неактивный">
             <label for="gender" class="text-light">Неактивный</label>
+            <input type="radio" name="status" value="Активный">
+            <label for="gender" class="text-light">Активный</label>
         </div>
     </div>
     <div class="form-group">
